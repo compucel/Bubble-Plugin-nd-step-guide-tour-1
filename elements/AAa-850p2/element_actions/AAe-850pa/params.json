@@ -1,0 +1,47 @@
+{
+    "caption": "start_tour",
+    "fields": {
+        "AAg": {
+            "caption": "steps_json",
+            "editor": "DynamicValue",
+            "long_text": true,
+            "name": "steps_json",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAh": {
+            "caption": "default_timeout",
+            "default_val": 10000,
+            "doc": "(number, ms; ex. 10000).",
+            "editor": "DynamicValue",
+            "name": "default_timeout",
+            "rank": 1,
+            "value": "number"
+        },
+        "AAi": {
+            "caption": "check_interval",
+            "default_val": 200,
+            "doc": "(number, ms; ex. 200).",
+            "editor": "DynamicValue",
+            "name": "check_interval",
+            "rank": 2,
+            "value": "number"
+        },
+        "AAj": {
+            "caption": "debug",
+            "default_val": false,
+            "editor": "DynamicValue",
+            "name": "debug",
+            "rank": 3,
+            "value": "boolean"
+        },
+        "AAk": {
+            "caption": "auto_scroll",
+            "default_val": true,
+            "editor": "DynamicValue",
+            "name": "auto_scroll",
+            "rank": 4,
+            "value": "boolean"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "categories": {
+        "0": "containers"
+    },
+    "data_tracked": false,
+    "description": "Gerenciador de Passos e Tutorial de Tour",
+    "image": "//meta-q.cdn.bubble.io/f1755892699565x261518536311496030/logo_notadelivery_final_Prancheta%201%20c%C3%B3pia%203.png",
+    "license": "private",
+    "name": "nd-step-guide-tour",
+    "plugin_instructions": "// -----------------------------\n// events (configure no editor do plugin)\n// -----------------------------\n// 1) on_start\n// 2) on_step_change\n// 3) on_complete\n// 4) on_cancel\n// 5) on_error\n\n\n// -----------------------------\n// Exposed States (configure no editor do plugin)\n// -----------------------------\n// - is_active (yes/no)\n// - current_step_index (number)\n// - current_step_title (text)\n\n\n// -----------------------------\n// Propriedades do elemento (configure no editor do plugin)\n// -----------------------------\n// - default_placement (text: 'top' | 'bottom' | 'left' | 'right' | 'center')\n// - close_on_overlay_click (yes/no)\n// - steps_json (opcional para iniciar automático via Update)\n\n\n// -----------------------------\n// Exemplo de steps_json\n// -----------------------------\n/*\n[\n{\n\"selector\": \"#botao-cadastrar\",\n\"title\": \"Crie seu primeiro cardápio\",\n\"content\": \"Clique em Cadastrar para começar a montar o cardápio digital.\",\n\"placement\": \"right\",\n\"scroll_into_view\": true\n},\n{\n\"selector\": \"[data-role=produto-adicionar]\",\n\"title\": \"Adicione seus produtos\",\n\"content\": \"Inclua itens, preços e opcionais.\",\n\"placement\": \"bottom\"\n},\n{\n\"selector\": \"#publicar\",\n\"title\": \"Publique e compartilhe\",\n\"content\": \"Gere o link do cardápio e compartilhe no WhatsApp.\",\n\"placement\": \"top\"\n}\n*/"
+}

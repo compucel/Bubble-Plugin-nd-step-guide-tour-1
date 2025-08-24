@@ -1,0 +1,48 @@
+{
+    "add_hover_pressed": true,
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 20,
+        "width": 20
+    },
+    "display": "ND Step Guide",
+    "events": {
+        "AAl": {
+            "caption": "errored",
+            "name": "errored"
+        },
+        "AAm": {
+            "caption": "completed",
+            "name": "completed"
+        }
+    },
+    "icon": "ion-android-checkbox-blank",
+    "platform_type": "web",
+    "states": {
+        "AAb": {
+            "caption": "is_running",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "is_running",
+            "value": "boolean"
+        },
+        "AAc": {
+            "caption": "current_step",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "current_step",
+            "value": "number"
+        },
+        "AAd": {
+            "caption": "last_error",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "last_error",
+            "value": "text"
+        }
+    }
+}
