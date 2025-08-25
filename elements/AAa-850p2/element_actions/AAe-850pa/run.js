@@ -1,5 +1,4 @@
 function(instance, properties, context) {
-  // pega engine criado no initialize.js
   const engine = instance.data && instance.data.engine;
   if (!engine) {
     instance.publishState('last_error', 'Engine não inicializada (initialize.js ainda não rodou).');
@@ -17,13 +16,22 @@ function(instance, properties, context) {
     return;
   }
 
+  const interactiveDefault =
+    (typeof properties.interactive_default === 'boolean')
+      ? properties.interactive_default
+      : false;
+
+  const interactiveSelectors = (properties.interactive_selectors || '').trim();
+
   const opts = {
     defaultTimeout: Number(properties.default_timeout) || 10000,
     checkInterval: Number(properties.check_interval) || 200,
     debug: !!properties.debug,
-    autoScroll: properties.auto_scroll !== false
+    autoScroll: properties.auto_scroll !== false,
+    interactiveDefault,
+    interactiveSelectors
   };
 
-  // inicia
+  // start() já faz restart seguro e cleanup se necessário
   engine.start(steps, opts);
 }

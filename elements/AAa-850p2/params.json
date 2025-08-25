@@ -17,6 +17,24 @@
             "name": "completed"
         }
     },
+    "fields": {
+        "AAn": {
+            "caption": "interactive_default",
+            "default_val": true,
+            "editor": "DynamicValue",
+            "name": "interactive_default",
+            "rank": 0,
+            "value": "boolean"
+        },
+        "AAo": {
+            "caption": "interactive_selectors",
+            "default_val": ".bubble-element.Input, .bubble-element.MultiLineInput, .bubble-element.Dropdown, input, textarea, select, [contenteditable=\"true\"]",
+            "editor": "DynamicValue",
+            "name": "interactive_selectors",
+            "rank": 1,
+            "value": "text"
+        }
+    },
     "icon": "ion-android-checkbox-blank",
     "platform_type": "web",
     "states": {
