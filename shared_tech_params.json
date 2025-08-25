@@ -4,10 +4,6 @@
             "name": "capturador",
             "url": "//meta-q.cdn.bubble.io/f1756156461933x153276488017156640/nd-cap.min.js"
         },
-        "AAq": {
-            "name": "core",
-            "url": "//meta-q.cdn.bubble.io/f1756156592572x870310639840790000/nd-core.min.js"
-        },
         "AAr": {
             "name": "runner",
             "url": "//meta-q.cdn.bubble.io/f1756156602491x243903646297036770/nd-run.min.js"
@@ -15,6 +11,18 @@
         "AAs": {
             "name": "editor",
             "url": "//meta-q.cdn.bubble.io/f1756156834051x711437820479590500/nd-editor.min.js"
+        },
+        "AAt": {
+            "name": "core",
+            "url": "//meta-q.cdn.bubble.io/f1756157248861x285747303238563330/nd-core.min.js"
+        },
+        "AAu": {
+            "name": "corees5",
+            "url": "//meta-q.cdn.bubble.io/f1756157765054x956800414470596200/nd-core.es5.min.js"
+        },
+        "AAv": {
+            "name": "capturador-bundle",
+            "url": "//meta-q.cdn.bubble.io/f1756159359996x136759144905301170/nd-cap.bundle.min.js"
         }
     },
     "dependencies": {
